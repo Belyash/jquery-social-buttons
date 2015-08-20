@@ -4,7 +4,7 @@
 Social Share Buttons with Counters: Facebook, VK, Twitter, LinkedIn, Pinterest.
 
 ## Demo
-[Codepen Demo](http://codepen.io/Belyash/full/ogQbWj/)
+jQuery Plugin version [Codepen Demo](http://codepen.io/Belyash/full/qdzVgx/)
 
 ## How to use
 HTML markup:
