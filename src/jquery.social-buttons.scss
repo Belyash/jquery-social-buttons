@@ -1,0 +1,48 @@
+$colors: (
+    facebook: #3b5998,
+    vk: #45668e,
+    twitter: #00aced,
+    pinterest: #cb2027,
+    linkedin: #007bb6,
+    google-plus: #dd4b39
+);
+
+.social {
+    text-align: center;
+    &__item {
+        display: inline-block;
+        margin: 10px;
+    }
+    .fa {
+        background: #fff;
+        border-radius: 35px;
+        color: #818181;
+        cursor: pointer;
+        display: block;
+        font-size: 30px;
+        height: 70px;
+        line-height: 70px;
+        position: relative;
+        text-align: center;
+        transition: all .2s;
+        width: 70px;
+        &:after {
+            color: #818181;
+            content: attr(data-count);
+            font-family: Roboto, Arial, sans-serif;
+            font-size: 14px;
+            left: 0;
+            line-height: 20px;
+            position: absolute;
+            text-align: center;
+            top: 100%;
+            width: 100%;
+        }
+    }
+    @each $key, $color in $colors {
+        .fa-#{$key}:hover {
+            box-shadow: 0 0 15px rgba($color, 0.5) inset;
+            color: $color;
+        }
+    }
+}
