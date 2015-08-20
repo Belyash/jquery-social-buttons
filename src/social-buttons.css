@@ -3,16 +3,6 @@
   .social__item {
     display: inline-block;
     margin: 10px; }
-    .social__item :after {
-      color: #818181;
-      content: attr(data-count);
-      font-size: 14px;
-      left: 0;
-      line-height: 20px;
-      position: absolute;
-      text-align: center;
-      top: 100%;
-      width: 100%; }
   .social .fa {
     background: #fff;
     border-radius: 35px;
@@ -26,6 +16,17 @@
     text-align: center;
     transition: all .2s;
     width: 70px; }
+    .social .fa:after {
+      color: #818181;
+      content: attr(data-count);
+      font-family: Roboto, Arial, sans-serif;
+      font-size: 14px;
+      left: 0;
+      line-height: 20px;
+      position: absolute;
+      text-align: center;
+      top: 100%;
+      width: 100%; }
   .social .fa-facebook:hover {
     box-shadow: 0 0 15px rgba(59, 89, 152, 0.5) inset;
     color: #3b5998; }

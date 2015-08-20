@@ -1,4 +1,4 @@
-# social-buttons
+# Social Buttons
 Social Share Buttons + Counters
 
 ## How to use
