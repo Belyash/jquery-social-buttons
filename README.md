@@ -1,12 +1,18 @@
-# Social Share Buttons
+# jQuery Social Share Buttons
 ![Social Share Buttons](social-share-buttons.png)
 
-Social Share Buttons with Counters: Facebook, VK, Twitter, LinkedIn, Pinterest.
+jQuery plugin for Social Share Buttons with counters. 
+Supported for:
+- Facebook, 
+- VK, 
+- Twitter, 
+- LinkedIn, 
+- Pinterest.
 
-## Demo
+## Live demo
 jQuery Plugin version [Codepen Demo](http://codepen.io/Belyash/full/qdzVgx/)
 
-## How to use
+## Easy to use
 HTML markup:
 <pre>
 &lt;span class="fa fa-facebook" data-social="fb" data-count="..."&gt;Facebook&lt;/span&gt;
