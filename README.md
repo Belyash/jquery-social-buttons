@@ -2,6 +2,7 @@
 ![Social Share Buttons](social-share-buttons.png)
 
 jQuery plugin for Social Share Buttons with counters. 
+
 Supported for:
 - Facebook, 
 - VK, 
