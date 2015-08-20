@@ -1,5 +1,10 @@
-# Social Buttons
-Social Share Buttons + Counters
+# Social Share Buttons
+Social Share Buttons with Counters: Facebook, VK, Twitter, LinkedIn, Pinterest.
+
+![Social Share Buttons](social-share-buttons.png)
+
+# Demo
+[Codepen Demo](http://codepen.io/Belyash/full/ogQbWj/)
 
 ## How to use
 HTML markup:
