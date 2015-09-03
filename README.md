@@ -17,10 +17,10 @@ jQuery Plugin version [Codepen Demo](http://codepen.io/Belyash/full/qdzVgx/)
 HTML markup:
 <pre>
 &lt;span class="fa fa-facebook" data-social="fb" data-count="..."&gt;Facebook&lt;/span&gt;
-&lt;span class="fa fa-vk" data-social="vk" data-count="..."&gt;Facebook&lt;/span&gt;
-&lt;span class="fa fa-twitter" data-social="tw" data-count="..."&gt;Facebook&lt;/span&gt;
-&lt;span class="fa fa-linkedin" data-social="ln" data-count="..."&gt;Facebook&lt;/span&gt;
-&lt;span class="fa fa-pinterest" data-social="pt" data-count="..."&gt;Facebook&lt;/span&gt;
+&lt;span class="fa fa-vk" data-social="vk" data-count="..."&gt;VK&lt;/span&gt;
+&lt;span class="fa fa-twitter" data-social="tw" data-count="..."&gt;Twitter&lt;/span&gt;
+&lt;span class="fa fa-linkedin" data-social="ln" data-count="..."&gt;LinkedIn&lt;/span&gt;
+&lt;span class="fa fa-pinterest" data-social="pt" data-count="..."&gt;Pinterest&lt;/span&gt;
 </pre>
 JavaScript Code:
 <pre>
