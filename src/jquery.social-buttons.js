@@ -1,3 +1,10 @@
+/*
+/*
+  jQuery Social Buttons 0.0.1 https://github.com/Belyash/jquery-social-buttons
+  (c) 2015 by Vasiliy Lazarev http://belyash.github.io/
+  Updated: September 6th, 2015
+  Apache License: http://www.apache.org/licenses/LICENSE-2.0
+*/
 (function ($, window, undefined) {
     var Socials,
         SocialButtons;
