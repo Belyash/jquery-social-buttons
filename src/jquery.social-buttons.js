@@ -12,7 +12,6 @@
         fb: {
             url: "https://graph.facebook.com/?id=",
             callback: function (data) {
-                console.log('fb', data);
                 if (data && data.shares) {
                     this.count = data.shares;
                 } else {
@@ -32,7 +31,6 @@
         tw: {
             url: "https://cdn.api.twitter.com/1/urls/count.json?url=",
             callback: function (data) {
-                console.log('tw', data);
                 if (data && data.count) {
                     this.count = data.count;
                 } else {
@@ -44,7 +42,6 @@
         ln: {
             url: "https://www.linkedin.com/countserv/count/share?format=jsonp&url=",
             callback: function (data) {
-                console.log('ln', data);
                 if (data && data.count) {
                     this.count = data.count;
                 } else {
@@ -56,7 +53,6 @@
         pt: {
             url: "http://api.pinterest.com/v1/urls/count.json?url=",
             callback: function (data) {
-                console.log('pt', data);
                 if (data && data.count) {
                     this.count = data.count;
                 } else {
