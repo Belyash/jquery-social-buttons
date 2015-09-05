@@ -24,13 +24,13 @@ HTML markup:
 </pre>
 JavaScript Code:
 <pre>
-$('[data-social]').socialShares();
+$('[data-social]').socialButtons();
 </pre>
 
 ## Settings
 By default buttons share current <code>location.href</code>, but you can customize sharing URL just put the hash with <code>url</code>:
 <pre>
-$('[data-social]').socialShares({
+$('[data-social]').socialButtons({
     url: 'http://belyash.github.io' // Default is current location.href
 });
 </pre>
