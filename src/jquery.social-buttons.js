@@ -1,4 +1,4 @@
-(function ($, window, document, undefined) {
+(function ($, window, undefined) {
     var Socials,
         SocialButtons;
 
@@ -17,7 +17,7 @@
         },
         vk: {
             url: "https://vk.com/share.php?act=count&url=",
-            callback: function (data) {
+            callback: function () {
                 // VK.com doesn't support callback parametr for JSONP
                 // This callback will never be called
             },
@@ -94,7 +94,7 @@
                 if (oSocial.url) {
                     $.getScript(
                         oSocial.url + self.shareUrl + "&callback=jQuery.fn.socialButtons." + network + "SetCount",
-                        function(data, textStatus, jqxhr) {
+                        function () {
                             $el.attr("data-count", oSocial.count);
                         }
                     );
@@ -112,12 +112,6 @@
                     });
                 }
             }
-        },
-        setCount: function (network, count) {
-            
-        },
-        getCount: function () {
-            
         }
     };
 
@@ -141,4 +135,4 @@
         }
     }
 
-}(jQuery, window, document));
+}(jQuery, window));
